@@ -10,8 +10,8 @@ arcpy.env.overwriteOutput= True
 arcpy.env.extent         = "MAXOF"
 
 # USER MODIFIED PARAMETERS #####################################################
-START_YEAR  = 2006      # Starting year for analysis
-END_YEAR    = 2011      # Ending year for analysis
+START_YEAR  = 2006      # Starting year of analysis
+END_YEAR    = 2011      # Ending year of analysis
 TAG         = 'GLoss'   # Tag for output folder
 list_states = 'WCB.txt' #'states_48.txt'
 SET_SNAP    = True      # Whether to snap raster to original extent or not
